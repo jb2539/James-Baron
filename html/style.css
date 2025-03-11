@@ -1,0 +1,33 @@
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+    color: blueviolet;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+#display{
+    width: 90%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: 2px;
+    background-color: rgb(198, 156, 236);
+    color: blanchedalmond;
+
+
+}
